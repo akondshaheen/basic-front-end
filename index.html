@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+  <head>
+    <title>Best Pizza Ever</title>
+  </head>
+  <body>
+    <header>
+      <h1>Order Your Pizza</h1>
+    </header>
+    <link rel="stylesheet" href="./css/style.css">
+
+  <main>
+      <section id="contact-form">
+        <h2>Place Order</h2>
+
+      <form class="" action="place-order.php" method="post">
+        <h4>Takeaway</h4>
+        <input type="radio" name="Delivery" value="Delivery">Delivery <br>
+        <input type="radio" name="Collection" value="Collection">Collection <br>
+
+        <p>Enter First Name : </p>
+        <input class="first_name" type="text" name=""  placeholder="e.g. John">
+
+        <p>Enter Last Name : </p>
+        <input class="Last_name" type="text" name=""  placeholder="e.g. Smith">
+
+        <p>Enter Address : </p>
+        <input class="Address" type="text" name=""  placeholder="Address Line 1"><br>
+        <input class="address" type="text" name=""  placeholder="Address Line 2"><br>
+        <input class="address" type="text" name=""  placeholder="Address Line 3"><br>
+        <input class="city" type="text" name="city" placeholder="Your city"><br>
+        <input class="state" type="text" name="State" placeholder="Your state"><br>
+        <input class="Post_code" type="text" name="Post code" placeholder="Post Code">       <br>
+
+
+
+       <h4>Size</h4>
+        <select class="Size" name="Size">
+          <option value="12">12" - $13.99</option>
+          <option value="16">16" - $15.99</option>
+          <option value="18">18" - $19.99</option>
+          <option value="48">48" - $39.99</option>
+        </select>
+
+
+
+        <h4>Ingredients</h4>
+          <input type="checkbox" name="Ingredients" value="Mushroom">Mushroom <br>
+          <input type="checkbox" name="Ingredients" value="Onion">Onion <br>
+          <input type="checkbox" name="Ingredients" value="Pepper">Pepper <br>
+          <input type="checkbox" name="Ingredients" value="Jalapenos">Jalapenos <br>
+          <input type="checkbox" name="Ingredients" value="Tomatos">Tomatos <br>
+          <input type="checkbox" name="Ingredients" value="Chicken">Chicken <br>
+
+        <br><br>
+        <button type="submit" name="button">Place order</button>
+
+      </form>
+
+      </section>
+
+  </body>
+
+<footer>
+  <center>&copy; 2019 <br> <a href="#">Terms and service</a>
+</footer>
+</main>
+</html>
